@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Vending Machine Change Calculator TDD Tutorial</title>
+    <!-- Load the QUnit CSS file from CDN - Require to display our tests attractively -->
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.1.1.css">
+  </head>
+  <body>
+    <div id='main'>
+      <h1>Vending Machine <em>Change Calculator</em></h1>
+      <h3>Calculate the change (<em>coins</em>) to return to a customer when they buy something.</h2>
+    </div>
+
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <!-- Load the QUnit Testing Framework from CDN - this is the important bit ... -->
+    <script src="https://code.jquery.com/qunit/qunit-2.1.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blanket.js/1.1.4/blanket.min.js"></script>
+    <script src="./change.js" data-cover></script>
+    <script src="./test.js"></script>
+  </body>
+</html>
